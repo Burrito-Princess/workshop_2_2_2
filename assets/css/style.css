@@ -1,0 +1,64 @@
+h1{
+    margin-left: 50px;
+    font-size: 43px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    background-color: red;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#mainimage{
+    float: right;
+    margin-top: -136px
+}
+
+#fig2{
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+#img2{
+    height: 150px;
+    margin-top: 5px;
+}
+
+.description{
+    display:flex;
+    justify-content: center;
+    border-width: 10px;
+    border-style: solid;
+    border-color:green;
+    font-size: 20px;
+}
+
+.description > p{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#caption1{
+    font-size: 16px;
+}
+
+.detailsingredients{
+    display: flex;
+    justify-content: center;
+    size: 100px;
+    padding: 10px;
+    border: 10px solid white;
+}
+
+#ingredients{
+    margin-left: 40px;
+}
+
+.theprocess{
+    display: flex;
+    justify-content: center;
+    border: 10px solid red;
+    size: 100px;
+    padding: 10px;
+}
